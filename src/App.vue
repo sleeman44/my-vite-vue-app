@@ -2,7 +2,6 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 // Access the VITE_API_URL environment variable
-//const apiUrl = import.meta.env.VITE_API_URL
 const apiUrl = window.__RUNTIME_CONFIG__.VITE_API_URL;
 </script>
 
